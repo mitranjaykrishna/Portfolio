@@ -10,10 +10,10 @@ const NavBar=() =>
             <nav className='main-nav'>
                 {/* logo */}
                 <div className='logo'>
-                    <h1>
-                        <span>M</span>itranjay
-                        <span>K</span>rishna
-                    </h1>
+                    <h2>
+                        <span>M</span>Y
+                        <span>P</span>ortfolio
+                    </h2>
                 </div>
 
                 {/* Menu Links */}
@@ -33,14 +33,15 @@ const NavBar=() =>
                     </ul>
                 </div>
 
-                {/* Intro Section */}
-                <section className='intro'>
-                    <p>This is </p>
-                    <h1>Mitranjay Krishna</h1>
-                </section>
-
             </nav>
+            {/* Intro Section */}
+            <section className='intro'>
+                <p>This is </p>
+                <h1>Mitranjay Krishna</h1>
+             </section>
         </>
+
+
     );
 
 };
